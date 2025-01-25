@@ -1,0 +1,23 @@
+@font-face{
+    font-family: "flappybirdnum";
+    src: url("fonts/FlappyBird.TTF");
+}
+body{
+    background-image: url(https://wallpapers.com/images/high/flappy-bird-background-5kn0uk837k957ojt.webp);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: bottom;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+#canvas{
+    border: 5px solid black;
+    height: calc(100% - 10px);
+    aspect-ratio: 3/4;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+    
+}
