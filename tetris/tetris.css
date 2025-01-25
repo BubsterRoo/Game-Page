@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(https://wallpapers.com/images/hd/tetris-1920-x-1080-background-hyihqau5t3lalo4e.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: bottom;
+}
+#board{
+    border: 3px solid #242323;
+    background-color: #242323;
+    aspect-ratio: 257/519;
+    height: calc(100% - 6px);
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+#nextPiece{
+    border: 3px solid #242323;
+    background-color: black;
+    height: calc(100% / 1.45);
+    aspect-ratio: 182/385;
+    top: 5%;
+    right: 21%;
+    position: absolute;
+}
+#hold{
+    border: 3px solid #242323;
+    background-color: black;
+    height: calc(100% / 4.2);
+    aspect-ratio: 182/150;
+    left: 21%;
+    top: 5%;
+    position: absolute;
+}
+#score{
+    border: 3px solid #242323;
+    background-color: black;
+    height: calc(100% / 2);
+    aspect-ratio: 182/315;
+    left: 21%;
+    bottom: 15%;
+    position: absolute;
+}
