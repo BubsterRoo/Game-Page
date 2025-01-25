@@ -15,5 +15,5 @@ There will be future games, currently are planned for Doodle Jump and Pac-Man.
 
 Current controls for each game.
 
-##Tetris
-###Up Arrow
+## Tetris
+### Up Arrow
