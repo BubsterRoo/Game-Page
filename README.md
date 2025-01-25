@@ -17,3 +17,23 @@ Current controls for each game.
 
 ## Tetris
 ### Up Arrow
+Move piece up
+
+### Left Arrow
+Move piece left
+
+### Right Arrow
+Moves piece right
+
+### Down Arrow
+Speeds up drop speed
+
+### Space
+Drop current piece
+
+### C
+Hold current piece
+
+## Flappy Bird
+### Space
+Flap
